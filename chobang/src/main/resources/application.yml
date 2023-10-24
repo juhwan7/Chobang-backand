@@ -1,0 +1,18 @@
+# spring
+spring:
+  datasource:
+    url: ENC(uNhybPCrK7f56lsZCgOKALW/BzOV9+QoTOpkNua49714zt+XPQVoHZpsAt9r7T2U/J4QB+MZlxiMau9uNKa4SzibC24A/n/duywpMZLx4op/2OhxqCirczPnZkeA5oSy0nuY/mZP+BhqPmMROM4oPOY5AZNVRdK6)
+    username: ENC(w/Ks9nlEC9TSXmvoJ34gkQ==)
+    password: ENC(8Ywxn/eKABhRipflxK5o+atrhw7F8lrR)
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  jpa:
+    hibernate:
+      ddl-auto: create
+# jasypt
+jasypt:
+  encryptor:
+    bean: jasyptStringEncryptor
+secret-key-source: ${SECRET_KEY_SOURCE}
