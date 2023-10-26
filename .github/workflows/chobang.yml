@@ -34,7 +34,7 @@ jobs:
         secret-key-source: ${{ secrets.SECRET_KEY_SOURCE }} 
     - name: Build with Gradle
       run: |
-        chmod +x gradlew
+        chmod +x ./gradlew
         chobang/gradlew bootJar
       
           ## 도커 이미지 빌드 후 도커허브에 push하기
