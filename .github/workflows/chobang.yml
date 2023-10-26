@@ -32,6 +32,8 @@ jobs:
         files: chobang/src/main/resources/application.yml
       env:
         secret-key-source: ${{ secrets.SECRET_KEY_SOURCE }} 
+    - name: List directory
+      run: ls -la
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
