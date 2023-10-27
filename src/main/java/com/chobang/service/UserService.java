@@ -5,8 +5,6 @@ import com.chobang.entitiy.User;
 import com.chobang.error.CustomException;
 import com.chobang.error.domain.UserErrorCode;
 import com.chobang.repository.UserRepository;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -41,7 +39,7 @@ public class UserService {
 
     /* 이메일 중복 체크 */
     public void checkDuplicateUser(String email) {
-        if (userRepository.existsByEmailAndIsDeletedFalse(email))
+        if (Boolean.TRUE.equals(userRepository.existsByEmailAndIsDeletedFalse(email)))
             throw new CustomException(UserErrorCode.DUPLICATE_EMAIL);
     }
 

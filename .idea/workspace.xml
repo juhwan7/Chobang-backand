@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba6ca3cd-0ecc-4d0a-9f6a-ae02f329cc6a" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/dto/user/request/SignUpUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/dto/vo/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/error/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/error/ErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/error/domain/UserErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/utils/ApiUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chobang/ChobangApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chobang/ChobangApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chobang/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chobang/config/SwaggerConfig.java" afterDir="false" />
+    <list default="true" id="ba6ca3cd-0ecc-4d0a-9f6a-ae02f329cc6a" name="변경" comment="feat: 회원가입 기능 추가">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chobang/entitiy/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chobang/entitiy/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chobang/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chobang/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +45,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -71,29 +62,30 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kimjuhwan/Documents/GitHub/Chobang-backand&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;1b323a371f92bd493aa074dd2fcc3bae&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/kimjuhwan/Documents/GitHub/Chobang-backand",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "1b323a371f92bd493aa074dd2fcc3bae",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="Chobang-backand" />
@@ -230,8 +222,65 @@
       <updated>1698114605399</updated>
       <workItem from="1698114606971" duration="1441000" />
       <workItem from="1698116179438" duration="83000" />
-      <workItem from="1698330861547" duration="23545000" />
+      <workItem from="1698330861547" duration="24080000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: yml파일 ddl-auto 설정">
+      <option name="closed" value="true" />
+      <created>1698396257514</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698396257514</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: 커스텀에러기능 추가">
+      <option name="closed" value="true" />
+      <created>1698396388035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698396388035</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 공통응답폼 추가">
+      <option name="closed" value="true" />
+      <created>1698396461539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698396461539</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: swagger 설정 추가">
+      <option name="closed" value="true" />
+      <created>1698396495582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698396495582</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat:  스프링 시큐리티 활성화 및 초기작업">
+      <option name="closed" value="true" />
+      <created>1698396544695</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698396544695</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: 공통응답폼 설정파일 추가">
+      <option name="closed" value="true" />
+      <created>1698396599552</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698396599552</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: 회원가입 기능 추가">
+      <option name="closed" value="true" />
+      <created>1698396627490</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698396627490</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +297,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/dev" />
+                        <option value="feature/회원가입" />
                       </list>
                     </value>
                   </entry>
@@ -260,6 +309,16 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: yml파일 ddl-auto 설정" />
+    <MESSAGE value="feat: 커스텀에러기능 추가" />
+    <MESSAGE value="feat: 공통응답폼 추가" />
+    <MESSAGE value="feat: swagger 설정 추가" />
+    <MESSAGE value="feat:  스프링 시큐리티 활성화 및 초기작업" />
+    <MESSAGE value="feat: 공통응답폼 설정파일 추가" />
+    <MESSAGE value="feat: 회원가입 기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 회원가입 기능 추가" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -269,7 +328,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/chobang/service/UserService.java</url>
-          <line>27</line>
+          <line>25</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
