@@ -5,22 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba6ca3cd-0ecc-4d0a-9f6a-ae02f329cc6a" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/chobang/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chobang/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chobang/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chobang/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chobang/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chobang/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chobang/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chobang/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chobang/src/main/java/com/chobang/ChobangApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chobang/src/main/java/com/chobang/config/CorsFilterConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chobang/src/main/java/com/chobang/config/JasyptConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chobang/src/main/java/com/chobang/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chobang/src/main/java/com/chobang/controller/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chobang/src/main/java/com/chobang/entitiy/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chobang/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chobang/src/test/java/com/chobang/ChobangApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/dto/user/request/SignUpUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/dto/vo/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/error/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/error/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/error/domain/UserErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chobang/utils/ApiUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chobang/ChobangApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chobang/ChobangApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chobang/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chobang/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chobang/entitiy/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chobang/entitiy/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +49,20 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,6 +73,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -71,6 +87,11 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;1b323a371f92bd493aa074dd2fcc3bae&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RunManager">
@@ -143,6 +164,9 @@
       <method v="2" />
     </configuration>
     <configuration name="ChobangApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="SECRET_KEY_SOURCE" value="20271825" />
+      </envs>
       <module name="chobang.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.chobang.ChobangApplication" />
       <method v="2">
@@ -206,11 +230,49 @@
       <updated>1698114605399</updated>
       <workItem from="1698114606971" duration="1441000" />
       <workItem from="1698116179438" duration="83000" />
-      <workItem from="1698330861547" duration="518000" />
+      <workItem from="1698330861547" duration="23545000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.tool.schema.spi.CommandAcceptanceException" package="org.hibernate.tool.schema.spi" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/chobang/service/UserService.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
