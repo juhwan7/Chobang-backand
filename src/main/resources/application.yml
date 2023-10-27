@@ -10,7 +10,11 @@ spring:
       matching-strategy: ant_path_matcher
   jpa:
     hibernate:
-      ddl-auto: create
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+      ddl-auto: update
 # jasypt
 jasypt:
   encryptor:
